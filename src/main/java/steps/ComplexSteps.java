@@ -3,12 +3,14 @@ package steps;
 import pages.GoogleCloudPage;
 import pages.GoogleCloudPricingCalculatorPage;
 import pages.YopmailServicePage;
+import util.ScreenshotMaker;
 
 public class ComplexSteps {
 
     private final GoogleCloudPage googleCloudMainPage = new GoogleCloudPage();
     private final GoogleCloudPricingCalculatorPage pricingCalculatorPage = new GoogleCloudPricingCalculatorPage();
     private final YopmailServicePage mailServicePage = new YopmailServicePage();
+    ScreenshotMaker sm = new ScreenshotMaker();
 
 
     public void searchForCalculatorStep() {
@@ -36,6 +38,7 @@ public class ComplexSteps {
     }
 
     public void sendCalculationsAsEmailStep() {
+        sm.captureScreenShot();
         pricingCalculatorPage.changeFrames();
         pricingCalculatorPage.clickToGetResultsAsMail();
         pricingCalculatorPage.fillInMyEmailField();

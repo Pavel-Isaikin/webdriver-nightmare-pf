@@ -60,3 +60,92 @@
 2021-10-03 13:00:22.890 [INFO ] BaseTest - - - - -TEST ENDED- - - -
 
 
+2021-10-03 13:46:00.246 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 13:46:06.708 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 13:46:07.207 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 13:46:22.111 [INFO ] GoogleCloudSearchPage - Navigate to Pricing Calculator page
+2021-10-03 13:46:31.782 [INFO ] GoogleCloudPricingCalculatorPage - Fill in VM commitment form and confirm
+
+2021-10-03 13:46:31.896 [INFO ] GoogleCloudPricingCalculatorPage - Check instance type: n1-standard-8
+2021-10-03 13:46:31.996 [INFO ] GoogleCloudPricingCalculatorPage - Check VM class: VM class: regular
+2021-10-03 13:46:32.020 [INFO ] GoogleCloudPricingCalculatorPage - Check commitment: Commitment term: 1 Year
+2021-10-03 13:46:32.045 [INFO ] GoogleCloudPricingCalculatorPage - Check SSD: 2x375 GiB
+2021-10-03 13:46:32.068 [INFO ] GoogleCloudPricingCalculatorPage - Check final price: Total Estimated Cost: USD 1,083.33 per 1 month
+
+2021-10-03 13:46:32.115 [INFO ] YopmailServicePage - Navigate to mailing service
+2021-10-03 13:46:37.686 [INFO ] YopmailServicePage - Generate new email address
+2021-10-03 13:46:38.123 [INFO ] GoogleCloudPricingCalculatorPage - temporary email gained: cripiquejiddi-6180@yopmail.com
+2021-10-03 13:46:38.727 [INFO ] GoogleCloudPricingCalculatorPage - Send mail to generated email address
+
+2021-10-03 13:47:00.783 [INFO ] YopmailServicePage - Check price in mail: USD 1,083.33
+2021-10-03 13:47:00.953 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
+2021-10-03 13:50:47.085 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 13:50:53.663 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 13:50:54.160 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 13:51:09.750 [INFO ] GoogleCloudSearchPage - Navigate to Pricing Calculator page
+2021-10-03 13:51:19.634 [INFO ] GoogleCloudPricingCalculatorPage - Fill in VM commitment form and confirm
+
+2021-10-03 13:51:19.745 [INFO ] GoogleCloudPricingCalculatorPage - Check instance type: n1-standard-8
+2021-10-03 13:51:19.853 [INFO ] GoogleCloudPricingCalculatorPage - Check VM class: VM class: regular
+2021-10-03 13:51:19.878 [INFO ] GoogleCloudPricingCalculatorPage - Check commitment: Commitment term: 1 Year
+2021-10-03 13:51:19.907 [INFO ] GoogleCloudPricingCalculatorPage - Check SSD: 2x375 GiB
+2021-10-03 13:51:19.939 [INFO ] GoogleCloudPricingCalculatorPage - Check final price: Total Estimated Cost: USD 1,083.33 per 1 month
+
+2021-10-03 13:51:19.995 [INFO ] YopmailServicePage - Navigate to mailing service
+2021-10-03 13:51:24.393 [INFO ] YopmailServicePage - Generate new email address
+2021-10-03 13:51:24.860 [INFO ] GoogleCloudPricingCalculatorPage - temporary email gained: xinnaubrefreupei-3047@yopmail.com
+2021-10-03 13:51:25.479 [INFO ] GoogleCloudPricingCalculatorPage - Send mail to generated email address
+
+2021-10-03 13:51:47.569 [INFO ] YopmailServicePage - Check price in mail: USD 1,083.33
+2021-10-03 13:51:47.751 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
+2021-10-03 14:00:56.300 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 14:01:02.747 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 14:01:03.258 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 14:01:12.027 [INFO ] GoogleCloudSearchPage - Navigate to Pricing Calculator page
+2021-10-03 14:02:19.709 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 14:03:22.211 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 14:03:28.349 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 14:03:28.831 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 14:05:59.264 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 14:06:05.630 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 14:06:06.144 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 14:06:11.564 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
+2021-10-03 14:06:11.570 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
+2021-10-03 14:07:24.971 [INFO ] BaseTest - - - -TEST STARTED- - -
+2021-10-03 14:07:30.852 [INFO ] GoogleCloudPage - Navigate to Google Cloud page
+2021-10-03 14:07:31.528 [INFO ] GoogleCloudPage - Search for Pricing Calculator page
+
+2021-10-03 14:07:47.453 [INFO ] GoogleCloudSearchPage - Navigate to Pricing Calculator page
+2021-10-03 14:07:57.604 [INFO ] GoogleCloudPricingCalculatorPage - Fill in VM commitment form and confirm
+
+2021-10-03 14:07:57.707 [INFO ] GoogleCloudPricingCalculatorPage - Check instance type: n1-standard-8
+2021-10-03 14:07:57.817 [INFO ] GoogleCloudPricingCalculatorPage - Check VM class: VM class: regular
+2021-10-03 14:07:57.841 [INFO ] GoogleCloudPricingCalculatorPage - Check commitment: Commitment term: 1 Year
+2021-10-03 14:07:57.864 [INFO ] GoogleCloudPricingCalculatorPage - Check SSD: 2x375 GiB
+2021-10-03 14:07:57.888 [INFO ] GoogleCloudPricingCalculatorPage - Check final price: Total Estimated Cost: USD 1,083.33 per 1 month
+
+2021-10-03 14:07:57.937 [INFO ] YopmailServicePage - Navigate to mailing service
+2021-10-03 14:08:02.100 [INFO ] YopmailServicePage - Generate new email address
+2021-10-03 14:08:02.669 [INFO ] GoogleCloudPricingCalculatorPage - temporary email gained: cewennazaubou-4734@yopmail.com
+2021-10-03 14:08:03.345 [INFO ] GoogleCloudPricingCalculatorPage - Send mail to generated email address
+
+2021-10-03 14:08:26.719 [INFO ] YopmailServicePage - Check price in mail: USD 1,083.33
+2021-10-03 14:08:26.899 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
+2021-10-03 14:08:26.902 [INFO ] BaseTest - - - - -TEST ENDED- - - -
+
+
