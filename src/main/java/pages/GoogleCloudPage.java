@@ -13,7 +13,7 @@ public class GoogleCloudPage extends BasePage {
 
     private final Logger LOGGER = LogManager.getLogger();
 
-    @FindBy(xpath = "//*[@name='q']")
+    @FindBy(xpath = "//*[@name='w']")
     WebElement searchButton;
 
     public GoogleCloudPage() {
