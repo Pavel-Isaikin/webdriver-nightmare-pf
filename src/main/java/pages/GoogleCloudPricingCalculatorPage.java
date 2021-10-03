@@ -6,8 +6,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 import static util.CommonConstants.NUMBER_OF_INSTANCES;
+import static util.CommonConstants.TIMEOUT;
 
 public class GoogleCloudPricingCalculatorPage extends BasePage {
 
@@ -74,8 +79,8 @@ public class GoogleCloudPricingCalculatorPage extends BasePage {
     }
 
     public void changeFrames() {
-        driver.switchTo().frame(outerFrame);
-        driver.switchTo().frame(innerFrame);
+        new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT)).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(outerFrame));
+        new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT)).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(innerFrame));
     }
 
     public void fillInNumberOfInstancesForm() {
@@ -136,6 +141,9 @@ public class GoogleCloudPricingCalculatorPage extends BasePage {
         LOGGER.info("Send mail to generated email address\n");
     }
 
+    public void closeChatBot() {
+        clickTo(driver.findElement(By.xpath("//*[@xmlns='http://www.w3.org/2000/svg']")));
+    }
 
     public boolean checkIfRegionIsCorrect() {
         String checker = chosenRegion.getText();
