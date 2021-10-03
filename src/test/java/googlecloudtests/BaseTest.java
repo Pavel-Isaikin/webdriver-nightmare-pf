@@ -27,7 +27,7 @@ public class BaseTest extends BasePage {
             sm.captureScreenShot();
         }
         DriverOrigin.getDriverOrigin().killDriver();
-        LOGGER.info("- - - -TEST ENDED- - - -\n\n");
+        LOGGER.info("- - - -TEST FAILED- - - -\n\n");
     }
 
     @AfterSuite(alwaysRun = true)

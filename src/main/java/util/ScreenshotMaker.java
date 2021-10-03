@@ -13,7 +13,7 @@ public class ScreenshotMaker extends BasePage {
     public void captureScreenShot() {
         File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(src, new File("target/scs/" + System.currentTimeMillis() + ".png"));
+            FileUtils.copyFile(src, new File("target/scs/" +"fail "+ System.currentTimeMillis() + ".png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }

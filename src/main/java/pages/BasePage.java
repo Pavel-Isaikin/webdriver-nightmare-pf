@@ -1,13 +1,10 @@
 package pages;
 
 import driver.DriverOrigin;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -29,7 +26,6 @@ public abstract class BasePage {
             System.out.println("Driver issue!");
         }
     }
-
 
     public void openNewTab(String URL) {
         js.executeScript(String.format("window.open('%s', '_blank');", URL));
